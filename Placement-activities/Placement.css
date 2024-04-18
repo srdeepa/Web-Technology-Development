@@ -1,0 +1,172 @@
+body {
+    background-color:navy;
+    font-family: Arial, sans-serif; /* Setting a fallback font */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lavenderblush; /* Adding a semi-transparent white background to the container */
+}
+
+.college-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.college-info img {
+    display: block;
+    margin: 0 auto;
+}
+
+.college-info p {
+    margin: 5px 0;
+}
+
+.college-heading {
+    font-size: 24px;
+    margin: 0;
+}
+
+.placement-activities {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff; /* Adding a white background to the placement activities section */
+    margin-top: 20px; /* Added margin to separate from college info */
+}
+
+.heading {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.activity-section {
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.add-activity {
+    margin-top: 20px;
+}
+
+.add-activity input[type="text"],
+.add-activity input[type="date"],
+.add-activity button {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Style for past activities */
+#past-activities li {
+    color: #666;
+    text-decoration: line-through;
+}
+
+/* Style for present activities */
+#present-activities li {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for upcoming activities */
+#upcoming-activities li {
+    font-style: italic;
+    color: #999;
+}
+
+/* About Section Styles */
+.about-section {
+    background-color: lavenderblush;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.about-section h2 {
+    text-align: center;
+}
+
+.about-section p {
+    text-align: center;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.about-section ul li {
+    margin-bottom: 5px;
+}
+
+/* Login Section Styles */
+.login-section {
+    background-color: lavenderblush;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.login-section h2 {
+    text-align: center;
+}
+
+.login-section p {
+    text-align: center;
+}
+
+.login-section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.login-section ul li {
+    margin-bottom: 5px;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    background-color: lavenderblush;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-section h2 {
+    text-align: center;
+}
+
+.contact-section p {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #666;
+}
