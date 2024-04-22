@@ -80,12 +80,6 @@ li {
     text-decoration: line-through;
 }
 
-/* Style for present activities */
-#present-activities li {
-    font-weight: bold;
-    color: #333;
-}
-
 /* Style for upcoming activities */
 #upcoming-activities li {
     font-style: italic;
