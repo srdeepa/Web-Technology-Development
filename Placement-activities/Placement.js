@@ -13,13 +13,8 @@ function addActivity() {
         var li = document.createElement("li");
         li.textContent = activity + " - " + activityDate;
         pastActivitiesList.appendChild(li);
-    } else if (inputDate.toDateString() === currentDate.toDateString()) {
-        // Activity is happening today
-        var presentActivitiesList = document.getElementById("present-activities");
-        var li = document.createElement("li");
-        li.textContent = activity + " - " + activityDate;
-        presentActivitiesList.appendChild(li);
-    } else {
+    } 
+     else {
         // Activity is upcoming
         var upcomingActivitiesList = document.getElementById("upcoming-activities");
         var li = document.createElement("li");
@@ -31,3 +26,5 @@ function addActivity() {
     activityInput.value = "";
     activityDateInput.value = "";
 }
+
+
