@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Living</title>
+    <style>
+        /* CSS code */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: #ccc;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://picsum.photos/2000/1000');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .hero .cta {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .hero .cta:hover {
+            background-color: #3e8e41;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 40px;
+            background-color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .features h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .features .feature-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .feature {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .feature i {
+            font-size: 48px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 16px;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            padding: 40px;
+            background-color: #f7f7f7;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .testimonials .testimonial-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .testimonial {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .testimonials blockquote {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            font-style: italic;
+            color: #555;
+        }
+
+        .testimonials cite {
+            display: block;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* About Section */
+        .about {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        footer a:hover {
+            color: #ccc;
+        }
+
+        /* Responsive Design */
+        @media only screen and (max-width: 768px) {
+            .hero {
+                height: 50vh;
+            }
+
+            .features .feature-container {
+                flex-direction: column;
+            }
+
+            .feature {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+
+            .testimonials .testimonial-container {
+                flex-direction: column;
+            }
+
+            .testimonial {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 20px;
+            }
+
+            .hero .cta {
+                font-size: 16px;
+                padding: 8px 16px;
+            }
+
+            .features, .testimonials, .about {
+                padding: 20px;
+            }
+
+            .feature, .testimonial {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Eco-Friendly Living for a Better Tomorrow</h1>
+            <p>Join the movement towards a sustainable future</p>
+            <button class="cta">Learn More</button>
+        </section>
+        <section class="features">
+            <h2>Why Eco-Friendly Living Matters</h2>
+            <div class="feature-container">
+                <div class="feature">
+                    <i class="fas fa-recycle"></i>
+                    <h3>Reduce Waste</h3>
+                    <p>Adopting eco-friendly practices helps reduce waste and pollution, leading to a cleaner environment.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Conserve Resources</h3>
+                    <p>Using sustainable resources ensures that we preserve our planet’s natural resources for future generations.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-sun"></i>
+                    <h3>Save Energy</h3>
+                    <p>Eco-friendly products often consume less energy, helping to reduce your carbon footprint.</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Community Says</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <blockquote>
+                        <p>"Switching to eco-friendly products has made a huge difference in my life. I feel good about making a positive impact on the environment."</p>
+                        <cite>- Sarah Lee</cite>
+                    </blockquote>
+                </div>
+                <div class="testimonial">
+                    <blockquote>
+                        <p>"I love knowing that my choices are helping to create a sustainable future. The quality of eco-friendly products is also fantastic!"</p>
+                        <cite>- John Doe</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>At Eco-Friendly Living, we are dedicated to promoting a sustainable lifestyle. Our mission is to provide high-quality, eco-friendly products that make it easier for people to live sustainably.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eco-Friendly Living | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
